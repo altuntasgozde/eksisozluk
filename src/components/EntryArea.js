@@ -1,7 +1,9 @@
-import React from 'react'
+import React from "react";
 
-export const EntryArea = () => {
+export const EntryArea = (props) => {
   return (
-    <div>EntryArea</div>
-  )
-}
+    <div>
+      <p>{props.choosenTitle[0].attributes.detail}</p>
+    </div>
+  );
+};
